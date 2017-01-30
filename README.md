@@ -14,6 +14,7 @@ is indicated in the R script "run_analysis.R" by a dashed line.
 8. Group data by subject and activity and calculate mean of each variable by subject/activity combination
 9. Write the data to the file "HAR data.txt"
 
+The final dataset is "tidy". Each column represents one variable(subject,activity, and means of each variable). Each row is a single observation.
 
 ==================================================================
 
