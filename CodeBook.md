@@ -1,8 +1,9 @@
 ###The following information described the remaining variables in the processed data:
 
 In addition to the variables obtained from inertial measurement unit data, two variables have been introduced to 
-identify the activity type and subject. The original set of variables are described below and have been subsetted to include only the mean and standard deviation for each variable. The variables are normalized to the range of 
-[-1,1] and therefore do not have meaningful units;however, it is assumed that the original measurements were: gyroscope rotational velocity 
+identify the activity type and subject. The original set of variables are described below and have been subsetted to include only the mean and standard deviation for each variable. Further, the data is summarized as only the mean of each remaining variable per each unique activity/subject combination.
+
+The variables are normalized to the range of [-1,1] and therefore do not have meaningful units;however, it is assumed that the original measurements were: gyroscope rotational velocity 
  in (degrees/second), accelerations in (G), and that jerk is the derivative of the respective measurement 
 with respect to time. (i.e. tBodyGyroJerk-XYZ is in degrees/second^2).
 
